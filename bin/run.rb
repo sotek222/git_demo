@@ -6,9 +6,9 @@ system 'clear'
 scroll_text header
 while !exit
   system 'clear'
-  a = "z"
+  a = "STOP REMOVING VAPORWAVE!!!!"
   puts header
-  scroll_text "What would you like to do?"
+  scroll_text "What genre of vaporwave do you like?"
   spacer
   input = gets.chomp 
   
