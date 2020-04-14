@@ -9,5 +9,5 @@
  - Environment variables
 
 ## 🧠 Contributers:
-- Matthew "VAPORWAVE" Masiello
+- Matthew Masiello
 - Ian Grubb
