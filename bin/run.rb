@@ -6,6 +6,7 @@ system 'clear'
 scroll_text header
 while !exit
   system 'clear'
+  a = "c"
   puts header
   scroll_text "What would you like to do?"
   spacer
