@@ -2,7 +2,6 @@ require_relative '../config/environment'
 
 exit = false
 play_music
-
 system 'clear'
 scroll_text header
 while !exit
