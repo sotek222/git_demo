@@ -19,6 +19,7 @@ GEM
     concurrent-ruby (1.1.6)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
+    dotenv (2.7.6)
     equatable (0.6.1)
     http-accept (1.7.0)
     http-cookie (1.0.3)
@@ -41,8 +42,8 @@ GEM
     pry (0.13.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    rack (2.2.2)
-    rack-protection (2.0.8.1)
+    rack (2.2.3)
+    rack-protection (2.2.0)
       rack
     require_all (3.0.0)
     rest-client (2.1.0)
@@ -51,11 +52,11 @@ GEM
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
     ruby-mp3info (0.8.10)
-    ruby2_keywords (0.0.2)
-    sinatra (2.0.8.1)
+    ruby2_keywords (0.0.5)
+    sinatra (2.2.0)
       mustermann (~> 1.0)
-      rack (~> 2.0)
-      rack-protection (= 2.0.8.1)
+      rack (~> 2.2)
+      rack-protection (= 2.2.0)
       tilt (~> 2.0)
     sinatra-activerecord (2.0.14)
       activerecord (>= 3.2)
@@ -92,6 +93,7 @@ PLATFORMS
 DEPENDENCIES
   awesome_print
   colorize
+  dotenv
   paint
   pry
   require_all
